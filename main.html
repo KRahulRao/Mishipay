@@ -1,0 +1,27 @@
+<html lang="en" ng-app="scan" >
+<head>
+ <meta charset="UTF-8">
+ <title>BarCode Scanner  Payment</title>
+ <script type="text/javascript" src="cordova.js"></script>
+ 
+ <!--Required Library files -->
+      <script src="lib/angular.js"></script>
+      <script src="lib/jquery-3.2.1.min.js"></script>
+      <script src="lib/jquery-ui.min.js"></script>
+      <script src="lib/bootstrap.js"></script>
+ 
+ <!-- Required js files-->
+  <script type="text/javascript" src="js/index.js"></script>
+  
+    <!-- Required css files -->
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap.css">
+</head>
+<body ng-controller="scancontrol" style="background-color:#3385ff; font-color:white">
+     <header><i><b style="font-size: 430%;color: white;padding-left: 40%;">Scann</b></i></header>
+	 <form class="form-group">
+	 <input type="text" class="form-control" placeholder="Enter your name">
+	 <input type="text" class="form-control" placeholder="Enter password">
+	 <button class="btn btn-primary" onclick="location.href = 'index.html'" style="margin-left: 45%;margin-top: 4%;">Login</button>
+	 </form>
+</body>
+</html>
